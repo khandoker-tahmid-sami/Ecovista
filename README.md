@@ -2,7 +2,7 @@
 
 **Ecovista** is a dynamic and responsive weather dashboard application built with **Next.js**, **Tailwind CSS**, and the **App Router** architecture. It fetches real-time environmental data like air quality, temperature, wind speed, and current weather conditions based on the user's location or a selected city.
 
-## 🚀 Features
+## Features
 
 - Real-time Weather Conditions (via OpenWeatherMap API)
 - Auto Location Detection (via Geolocation API)
