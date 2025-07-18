@@ -10,8 +10,12 @@ const LocationSwitcher = () => {
 
   useEffect(() => {
     const getLocations = async () => {
-      const locationList = await getLocationList();
-      setLocations(locationList);
+      try {
+        const locationList = await getLocationList();
+        setLocations(locationList);
+      } catch (e) {
+        console.log("Failed to load locations", e.message);
+      }
     };
 
     getLocations();
