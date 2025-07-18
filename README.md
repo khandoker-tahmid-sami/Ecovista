@@ -18,7 +18,7 @@
 
 ## Screenshots
 
-![Ecovista Screenshot](./ecovista.png)
+![Ecovista Screenshot](./ecovista.PNG)
 
 ## Tech Stack
 
